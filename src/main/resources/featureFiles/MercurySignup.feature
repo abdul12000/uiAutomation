@@ -1,4 +1,4 @@
-Feature: As a user i want to be able to signup to the Mercury tours website
+Feature: As a user i want to be able to signup to the Mercury tours website and automate the process
 
   @AutomatedScenario
   Scenario Outline: Signup using valid details
@@ -12,12 +12,12 @@ Feature: As a user i want to be able to signup to the Mercury tours website
       | firstName | lastName | email               | username   | password  |
       | SamREawR   | SamwSEaR  | samSweRa@hotmail.com | sameRwaaPot | HoRawpeSam |
       | AdaWeR     | AdaBeR    | adaeR@yahoo.com      | adIRse      | isRAdde    |
-#  @dev
+  @dev
     Examples:
       | firstName | lastName | email               | username   | password  |
       | SamREawRq   | SamwSEaRq  | samSweRqa@hotmail.com | sameRwaaPotq | HoRawpeSamq |
       | AdaWeqR     | AdaBeRq    | adaeRq@yahoo.com     | adIRseq      | isRAddeq    |
-#      | SamREa    | SamSEa   | samSea@hotmail.com  | sameaPot   | aHoPeSam  |
+      | SamREa    | SamSEa   | samSea@hotmail.com  | sameaPot   | aHoPeSam  |
 #      | AdaWf     | AdaBf    | adaf@yahoo.com      | adfIs      | isAfdd    |
 
   @pro
