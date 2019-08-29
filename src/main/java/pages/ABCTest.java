@@ -33,7 +33,7 @@ public class ABCTest extends BasePage implements MortgageHomePageInterface {
     @FindBy (xpath = "//div[@class='repayment-block']/div[3]/div[1]/h3")
 //    @FindBy (xpath = "//div[@class='repayment-block']/div[3]/div[1]/h3(text")
     private WebElement downPaymtAmtLocator;
-    @FindBy (xpath = "//div[@class='repayment-block']/div[5]/div[1]/h3")
+    @FindBy(xpath="//div[@class='repayment-block']/div[5]/div[1]/h3")
     private WebElement monthlyTaxPaidLocator;
     @FindBy (xpath = "//div[@class='repayment-block']/div[6]/div[1]/h3")
     private WebElement monthlyHomeInsuranceLocator;
